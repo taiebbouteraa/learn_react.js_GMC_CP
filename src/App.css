@@ -1,38 +1,158 @@
-.App {
+form.row.g-3.my-form {
+  margin: 20px;
+}
+#block-1{
+  border: solid black 1px ;
+}
+button.btn.btn-primary.mb-3.col-md-2 {
+  height: 38px;
+  width : 100px
+}
+
+#block-1-1{
+margin : 0 50px;
+}
+
+/* ------------------------------- block 2 ------------------------------- */
+#block-2{
+  background-image: url(./images/first.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.block-2-1{
+  
+  text-align: center;
+  margin: 20px 500px;
+}
+#band-name{
+  margin-top: 100px;
+  margin-bottom: 25px;
+  color: #0fc9da;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 500;
+}
+#band-text{
+  color: white;
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: 700;
+  margin : 25px auto;
+}
+.block-2-1 p{
+  color: white;
+  margin: 25px auto 100px ;
+}
+.band-block-inner{
+  width: 900px;
+  margin: auto;
+}
+.btn-light{
+  border-radius: 50px !important;
+  max-width : 253px;
+  max-height: 50px;
+  margin : 20px;
+  font-size: 16px;
+  width: 100%;
+}
+/* ------------------------------- block 2 end------------------------------- */
+
+/*------------------------------- upcoming concerts start -------------------------------*/
+#upcoming-concerts{
+  background-image: url(./images/upcoming.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 50px auto;
+  /* height: 700px; */
+}
+.consert-img img{
+  border-radius: 300px;
+  height: 300px;
+  width: 300px;
+}
+.consert-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding : 25px;
+}
+.consert-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.consert-text h1{
+  font-size: 70px;
+  margin: 50px auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.consert-text p{
+  font-size: 19px;
+  margin: 50px auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.consert-text button{
+  border-radius: 50px;
+  margin: 25px;
+}
+/*------------------------------- upcoming concerts end -------------------------------*/
+
+/*------------------------------- last form -------------------------------*/
+div#form-part {
+  max-width: 1140px;
+  padding: 20px;
+  box-shadow: 5px 10px 18px #888888;
+  margin: 30px auto;
+  max-width: 1140px;
+}
+.form-section{
   text-align: center;
 }
+/*------------------------------- last form end-------------------------------*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*------------------------------- footer -------------------------------*/
+.border-top{
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+footer a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+  .mb-3{
+    margin: auto;
+  }
+  .about{
+    margin: auto;
+    text-align: center;
+  }
+  .needs-validation{
+    max-width: 500px;
+    margin: auto;
+  }
+  .center-it{
+    display: flex;
+    justify-self: center;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 490px) {
+  .make-small{
+    max-width: 490px;
   }
-  to {
-    transform: rotate(360deg);
+  .form-control,.mb-3,.needs-validation{
+    max-width: 200px;
   }
 }
+@media screen and (max-width: 477px) {
+  .btn-outline-success{
+    max-width: 200px;
+  }
+}
+footer a{
+  text-decoration: none;
+}
+/*------------------------------- footer end -------------------------------*/
